@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MariBerhitung</string>
+
+    <string-array name="sp_aritmatika">
+        <item>--- Pilih operasinya ---</item>
+        <item>x</item>
+        <item>/</item>
+        <item>+</item>
+        <item>-</item>
+    </string-array>
+
+</resources>
