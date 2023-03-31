@@ -43,6 +43,9 @@ class MainActivity : AppCompatActivity() {
             "/" -> hitung_hasil = nilai1 / nilai2
             "+" -> hitung_hasil = nilai1 + nilai2
             "-" -> hitung_hasil = nilai1 - nilai2
+            "%" -> hitung_hasil = nilai1 % nilai2
+
+
             else -> {
                 Toast.makeText(this, "Pilih operatormu", Toast.LENGTH_SHORT).show()
             }

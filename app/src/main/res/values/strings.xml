@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">MariBerhitung</string>
+    <string name="_0">0</string>
+    <string name="hitung">Hitung</string>
+    <string name="masukkan_angka_pertamamu">Masukkan angka pertamamu..</string>
+    <string name="masukkan_angka_keduamu">Masukkan angka keduamu..</string>
 
     <string-array name="sp_aritmatika">
         <item>--- Pilih operasinya ---</item>
@@ -7,6 +11,7 @@
         <item>/</item>
         <item>+</item>
         <item>-</item>
+        <item>%</item>
     </string-array>
 
 </resources>

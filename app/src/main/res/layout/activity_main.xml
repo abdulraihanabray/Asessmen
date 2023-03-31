@@ -10,7 +10,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Masukkan angka pertamamu.."
+        android:hint="@string/masukkan_angka_pertamamu"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="30dp"
         android:id="@+id/et_angka1"
@@ -20,7 +20,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Masukkan angka keduamu.."
+        android:hint="@string/masukkan_angka_keduamu"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="30dp"
         android:id="@+id/et_angka2"
@@ -40,13 +40,13 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="30dp"
-        android:text="Hitung"
+        android:text="@string/hitung"
         android:id="@+id/btn_Hitung"
         />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text=" "
+        android:text="@string/_0"
         android:id="@+id/tv_hasil"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="30dp"
