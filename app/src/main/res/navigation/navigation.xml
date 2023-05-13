@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mainActivity3">
+
+    <activity
+        android:id="@+id/mainActivity3"
+        android:name="org.d3if3002.mariberhitung.MainActivity"
+        android:label="MainActivity" />
+    <fragment
+        android:id="@+id/aboutFragment3"
+        android:name="org.d3if3002.mariberhitung.ui.AboutFragment"
+        android:label="AboutFragment" />
+</navigation>

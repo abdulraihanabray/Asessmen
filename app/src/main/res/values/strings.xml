@@ -14,4 +14,14 @@
         <item>%</item>
     </string-array>
 
+    <string name="saran_ideal">kalkulator adalah alat untuk menghitung dari perhitungan sederhana seperti penjumlahan,
+        pengurangan, perkalian dan pembagian sampai kepada kalkulator ilmiah yang dapat menghitung rumus matematika tertentu.</string>
+
+    <string name="saran_gemuk">Cobalah untuk menghitung menggunakan kalkulator ini, asal jangan menghitung kebaikan orang lain ya.</string>
+
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="copyright">Mesin hitung atau kalkulator adalah alat untuk menghitung dari
+        perhitungan sederhana seperti penjumlahan, pengurangan, perkalian dan pembagian sampai
+        kepada kalkulator ilmiah yang dapat menghitung rumus matematika tertentu.\n\nAplikasi ini dibuat untuk asessmen2\n\nCopyright © 2023 Abdul Raihan.\nAll rights reserved.</string>
+
 </resources>
