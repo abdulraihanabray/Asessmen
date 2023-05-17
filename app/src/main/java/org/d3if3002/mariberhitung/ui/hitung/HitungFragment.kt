@@ -18,15 +18,25 @@ class HitungFragment : Fragment() {
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         super.onCreateOptionsMenu(menu, inflater)
-        inflater.inflate(R.menu.profile_menu, menu)
+        inflater.inflate(R.menu.options_menu, menu)
     }
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        if (item.itemId == R.id.menu_about) {
-            findNavController().navigate(
-                R.id.action_hitungFragment_to_profileFragment)
-            return true
+        when(item.itemId) {
+            R.id.menu_histori -> {
+                findNavController().navigate(
+                    R.id.action_hitungFragment_to_historiFragment
+                )
+                return true
+            }
+            R.id.menu_about -> {
+                findNavController().navigate(
+                    R.id.action_hitungFragment_to_profileFragment
+                )
+                return true
+            }
         }
-        return super.onOptionsItemSelected(item)
+            return super.onOptionsItemSelected(item)
+
     }
 
     override fun onCreateView(

@@ -16,17 +16,19 @@
     <string name="tentangAplikasiButton">Tentang Aplikasi</string>
 
 
-    <string name="saran_ideal">kalkulator adalah alat untuk menghitung dari perhitungan sederhana seperti penjumlahan,
-        pengurangan, perkalian dan pembagian sampai kepada kalkulator ilmiah yang dapat menghitung rumus matematika tertentu.</string>
-
-    <string name="saran_gemuk">Cobalah untuk menghitung menggunakan kalkulator ini, asal jangan menghitung kebaikan orang lain ya.</string>
-
-    <string name="tentang_aplikasi">Tentang Aplikasi</string>
-    <string name="copyright">Mesin hitung atau kalkulator adalah alat untuk menghitung dari
-        perhitungan sederhana seperti penjumlahan, pengurangan, perkalian dan pembagian sampai
-        kepada kalkulator ilmiah yang dapat menghitung rumus matematika tertentu.\n\nAplikasi ini dibuat untuk asessmen2\n\nCopyright © 2023 Abdul Raihan.\nAll rights reserved.</string>
+    <string name="tentang_aplikasi">kalkulator adalah alat untuk menghitung dari perhitungan sederhana
+        seperti penjumlahan, pengurangan, perkalian dan pembagian Cobalah untuk menghitung menggunakan
+        kalkulator ini, asal jangan menghitung kebaikan orang lain ya. Mesin hitung atau kalkulator adalah
+        alat untuk menghitung dari perhitungan sederhana seperti penjumlahan, pengurangan, perkalian dan
+        pembagian sampai kepada kalkulator ilmiah yang dapat menghitung rumus matematika tertentu.\n\nAplikasi
+        ini dibuat untuk asessmen2\n\nCopyright © 2023 Abdul Raihan.\nAll rights reserved.</string>
 
     <string name="profile"> Perkenalkan saya Abdul Raihan biasa dipanggil abray, saya berumur 19 tahun dan saya
         adalah seorang android developer yang membuat aplikasi kalkulator ini untuk membantu user
         dalam melakukan perhitungan. silahkan dicoba!</string>
+
+    <string name="belum_ada_data">Belum ada data</string>
+
+    <string name="histori">Histori</string>
+
 </resources>

@@ -7,22 +7,36 @@
     <fragment
         android:id="@+id/hitungFragment"
         android:name="org.d3if3002.mariberhitung.ui.hitung.HitungFragment"
-        android:label="Hitung"
+        android:label="MariBerhitung"
         tools:layout="@layout/fragment_hitung" >
         <action
             android:id="@+id/action_hitungFragment_to_aboutFragment3"
-            app:destination="@id/aboutFragment" />
+            app:destination="@id/aboutFragment"
+            />
         <action
             android:id="@+id/action_hitungFragment_to_profileFragment"
-            app:destination="@id/profileFragment" />
+            app:destination="@id/profileFragment"
+            />
+        <action
+            android:id="@+id/action_hitungFragment_to_historiFragment"
+            app:destination="@id/historiFragment"
+            />
     </fragment>
     <fragment
         android:id="@+id/aboutFragment"
         android:name="org.d3if3002.mariberhitung.ui.AboutFragment"
-        android:label="About"
+        android:label="Tentang Aplikasi"
         tools:layout="@layout/fragment_about"/>
     <fragment
         android:id="@+id/profileFragment"
         android:name="org.d3if3002.mariberhitung.ui.ProfileFragment"
-        android:label="ProfileFragment" />
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile"
+        />
+    <fragment
+        android:id="@+id/historiFragment"
+        android:name="org.d3if3002.mariberhitung.ui.histori.HistoriFragment"
+        android:label="Histori Perhitungan"
+        tools:layout="@layout/fragment_histori"
+        />
 </navigation>
