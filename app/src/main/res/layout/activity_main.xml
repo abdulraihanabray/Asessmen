@@ -4,11 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:name="org.d3if3002.mariberhitung.ui.HitungFragment"
-    android:id="@+id/mycontainer">
-
-
-
+    android:id="@+id/myNavHostFragment"
+    android:name="androidx.navigation.fragment.NavHostFragment"
+    app:defaultNavHost="true"
+    app:navGraph="@navigation/navigation"
+    tools:context=".MainActivity"
+    tools:viewBindingIgnore="true">
 
 </fragment>
 

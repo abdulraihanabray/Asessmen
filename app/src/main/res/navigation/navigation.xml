@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation"
-    app:startDestination="@id/mainActivity3">
-
-    <activity
-        android:id="@+id/mainActivity3"
-        android:name="org.d3if3002.mariberhitung.MainActivity"
-        android:label="MainActivity" />
+    app:startDestination="@id/hitungFragment">
     <fragment
-        android:id="@+id/aboutFragment3"
+        android:id="@+id/hitungFragment"
+        android:name="org.d3if3002.mariberhitung.ui.hitung.HitungFragment"
+        android:label="Hitung"
+        tools:layout="@layout/fragment_hitung" >
+        <action
+            android:id="@+id/action_hitungFragment_to_aboutFragment3"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_hitungFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
         android:name="org.d3if3002.mariberhitung.ui.AboutFragment"
-        android:label="AboutFragment" />
+        android:label="About"
+        tools:layout="@layout/fragment_about"/>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="org.d3if3002.mariberhitung.ui.ProfileFragment"
+        android:label="ProfileFragment" />
 </navigation>

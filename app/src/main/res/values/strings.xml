@@ -13,6 +13,8 @@
         <item>-</item>
         <item>%</item>
     </string-array>
+    <string name="tentangAplikasiButton">Tentang Aplikasi</string>
+
 
     <string name="saran_ideal">kalkulator adalah alat untuk menghitung dari perhitungan sederhana seperti penjumlahan,
         pengurangan, perkalian dan pembagian sampai kepada kalkulator ilmiah yang dapat menghitung rumus matematika tertentu.</string>
@@ -24,4 +26,7 @@
         perhitungan sederhana seperti penjumlahan, pengurangan, perkalian dan pembagian sampai
         kepada kalkulator ilmiah yang dapat menghitung rumus matematika tertentu.\n\nAplikasi ini dibuat untuk asessmen2\n\nCopyright © 2023 Abdul Raihan.\nAll rights reserved.</string>
 
+    <string name="profile"> Perkenalkan saya Abdul Raihan biasa dipanggil abray, saya berumur 19 tahun dan saya
+        adalah seorang android developer yang membuat aplikasi kalkulator ini untuk membantu user
+        dalam melakukan perhitungan. silahkan dicoba!</string>
 </resources>
