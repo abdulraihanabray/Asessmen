@@ -31,4 +31,10 @@
 
     <string name="histori">Histori</string>
 
+    <string name="hasil_x">hasil: %1$.2f</string>
+    <string name="hapus_histori">Hapus Histori</string>
+    <string name="konfirmasi_hapus">Hapus semua histori?</string>
+    <string name="hapus">Hapus</string>
+    <string name="batal">Batal</string>
+
 </resources>

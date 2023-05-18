@@ -1,6 +1,7 @@
 package org.d3if3002.mariberhitung.ui.hitung
 
 import android.os.Bundle
+import android.util.Log
 import android.view.*
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
@@ -8,12 +9,15 @@ import androidx.navigation.findNavController
 import androidx.navigation.fragment.findNavController
 import org.d3if3002.mariberhitung.R
 import org.d3if3002.mariberhitung.databinding.FragmentHitungBinding
+import org.d3if3002.mariberhitung.db.HitungDb
 
 class HitungFragment : Fragment() {
 
     private lateinit var binding: FragmentHitungBinding
     private val viewModel : HitungViewModel by lazy {
-        ViewModelProvider(this)[HitungViewModel::class.java]
+        val db = HitungDb.getInstance(requireContext())
+        val factory = HitungViewModelFactory(db.dao)
+        ViewModelProvider(this, factory)[HitungViewModel::class.java]
     }
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
@@ -53,6 +57,11 @@ class HitungFragment : Fragment() {
         viewModel.getHasil().observe(viewLifecycleOwner) {
             binding.tvHasil.text = it.toString()
         }
+
+//        viewModel.data.observe(viewLifecycleOwner, {
+//            if (it == null) return@observe
+//            Log.d("HitungFragment", "Data tersimpan. ID = ${it.id}")
+//        })
 
         binding.tentangAplikasiButton.setOnClickListener() {
             it.findNavController().navigate(
