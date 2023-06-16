@@ -1,7 +1,7 @@
 package org.d3if3002.mariberhitung.ui.hitung
 
+import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.view.*
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
@@ -87,6 +87,21 @@ class HitungFragment : Fragment() {
             val pilih_operator = binding.spAritmatika.selectedItem.toString()
 
             viewModel.do_hitung_hasil(nilai_angka1, nilai_angka2, pilih_operator)
+        }
+
+        binding.shareButton.setOnClickListener { shareData() }
+
+
+    }
+
+    private fun shareData() {
+        val message = "Hasil:"
+
+        val shareIntent = Intent(Intent.ACTION_SEND)
+        shareIntent.setType("text/plain").putExtra(Intent.EXTRA_TEXT, message)
+        if (shareIntent.resolveActivity(
+                requireActivity().packageManager) != null) {
+            startActivity(shareIntent)
         }
     }
 }

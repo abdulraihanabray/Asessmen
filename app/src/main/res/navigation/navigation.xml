@@ -29,7 +29,7 @@
         tools:layout="@layout/fragment_about"/>
     <fragment
         android:id="@+id/profileFragment"
-        android:name="org.d3if3002.mariberhitung.ui.ProfileFragment"
+        android:name="org.d3if3002.mariberhitung.ui.profile.ProfileFragment"
         android:label="Profile"
         tools:layout="@layout/fragment_profile"
         />

@@ -27,6 +27,9 @@
         adalah seorang android developer yang membuat aplikasi kalkulator ini untuk membantu user
         dalam melakukan perhitungan. silahkan dicoba!</string>
 
+    <string name="bagikan">Bagikan</string>
+    <string name="bagikan_template">hasil: %1$.2f</string>
+
     <string name="belum_ada_data">Belum ada data</string>
 
     <string name="histori">Histori</string>
@@ -36,5 +39,11 @@
     <string name="konfirmasi_hapus">Hapus semua histori?</string>
     <string name="hapus">Hapus</string>
     <string name="batal">Batal</string>
+    <string name="koneksi_error">Koneksi error</string>
 
+    <string name="channel_name">Updater</string>
+    <string name="channel_desc">Update data hewan otomatis</string>
+
+    <string name="notif_title">Ada notifikasi baru!</string>
+    <string name="notif_text">Cek dulu yuk siapa tau penting..</string>
 </resources>

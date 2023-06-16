@@ -4,23 +4,41 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ui.ProfileFragment"
+    tools:context=".ui.profile.ProfileFragment"
     tools:layout="@layout/fragment_profile">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageViewProfile"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/foto_abray" />
+        tools:src="@drawable/baseline_broken_image_24" />
+
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewProfile"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:textSize="18sp"
         android:visibility="visible"
         android:text="@string/profile" />
+
+    <TextView
+        android:id="@+id/networkError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/koneksi_error"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
 
 </LinearLayout>
 
